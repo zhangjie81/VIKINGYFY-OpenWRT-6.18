@@ -58,9 +58,6 @@ UPDATE_PACKAGE "netspeedtest" "sirpdboy/netspeedtest" "main" "" "homebox ookla-s
 UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "master"
 
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"
-UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
-UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
-UPDATE_PACKAGE "adbyby-plus" "kiddin9/luci-app-adbyby-plus" "master"
 
 #更新软件包版本
 UPDATEVERSION() {
