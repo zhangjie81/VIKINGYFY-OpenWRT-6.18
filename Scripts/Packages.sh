@@ -53,7 +53,6 @@ UPDATE_PACKAGE "filemanager" "sbwml/luci-app-filemanager" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "master"
-
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"
 
 #更新软件包版本
