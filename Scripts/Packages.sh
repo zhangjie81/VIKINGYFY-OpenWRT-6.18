@@ -53,7 +53,9 @@ UPDATE_PACKAGE "filemanager" "sbwml/luci-app-filemanager" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"
-UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main" "pkg"
+
+## lucky 直接git clone，不用 UPDATE_PACKAGE，- 直接克隆到 package/lucky
+git clone --depth=1 https://github.com/gdy666/luci-app-lucky.git lucky
 
 #更新软件包版本
 UPDATEVERSION() {
